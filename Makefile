@@ -57,12 +57,12 @@ PROJECT = chibios-skeleton
 CHIBIOS = ChibiOS
 
 # Define linker script file here
-LDSCRIPT= $(CHIBIOS)/demos/ARMCM3-STM32F100-DISCOVERY/ch.ld
+LDSCRIPT= $(PORTLD)/STM32F100xB.ld
 
 # Board specific build files
 include $(CHIBIOS)/boards/ST_STM32VL_DISCOVERY/board.mk
-include $(CHIBIOS)/os/hal/platforms/STM32/platform.mk
-include $(CHIBIOS)/os/ports/GCC/ARMCMx/STM32/port.mk
+include $(CHIBIOS)/os/hal/platforms/STM32F1xx/platform.mk
+include $(CHIBIOS)/os/ports/GCC/ARMCMx/STM32F1xx/port.mk
 
 # Core build files
 include $(CHIBIOS)/os/hal/hal.mk

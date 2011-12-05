@@ -17,7 +17,7 @@ The project expects to find ChibiOS source package unpacked (or linked
 to) in the project directory as ChibiOS. You can change this expectation
 in the Makefile by setting the actual location to the CHIBIOS variable.
 
-Different versions of ChibiOS may or may not work, version 2.2.7 was
+Different versions of ChibiOS may or may not work, version 2.3.4 was
 used to setup this skeleton project.
 
 ChibiOS sources can be downloaded from the ChibiOS site at
