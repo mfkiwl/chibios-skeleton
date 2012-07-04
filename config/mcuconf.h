@@ -44,6 +44,8 @@
 #define STM32_PPRE2                         STM32_PPRE2_DIV1
 #define STM32_ADCPRE                        STM32_ADCPRE_DIV2
 #define STM32_MCO                           STM32_MCO_NOCLOCK
+#define STM32_LSI_ENABLED                   TRUE
+#define STM32_RTCSEL                        STM32_RTCSEL_LSI
 
 /*
  * ADC driver system settings.
